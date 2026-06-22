@@ -1,6 +1,6 @@
 # TalentHire
 
-**MCVPARSER**, also referred to as **TalentHire** inside the codebase, is an AI-powered recruitment and interview assessment platform. It helps candidates build and manage CVs, allows recruiters to post jobs and evaluate applicants, and uses NLP/AI services for resume parsing, job matching, mock interviews, and real interview assessment.
+**TalentHire** is an AI-powered recruitment and interview assessment platform. It helps candidates build and manage CVs, allows recruiters to post jobs and evaluate applicants, and uses NLP/AI services for resume parsing, job matching, mock interviews, and real interview assessment.
 
 The project is built as a multi-service system:
 
