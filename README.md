@@ -22,6 +22,54 @@ The platform has three main user roles:
 
 ---
 
+## Screenshots
+
+Below are some screenshots of the TalentHire platform.
+
+> Make sure these images exist inside the `screenshots/` folder before uploading to GitHub.
+
+### Landing Page
+
+![Home Page](screenshots/home.png)
+
+### Candidate Dashboard
+
+![Candidate Dashboard](screenshots/candidate-dashboard.png)
+
+### Recruiter Dashboard
+
+![Recruiter Dashboard](screenshots/recruiter-dashboard.png)
+
+### Admin Dashboard
+
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+### Resume Builder
+
+![Resume Builder](screenshots/resume-builder.png)
+
+### Job Search Page
+
+![Job Search](screenshots/job-search.png)
+
+### Job Details Page
+
+![Job Details](screenshots/job-details.png)
+
+### Mock Interview
+
+![Mock Interview](screenshots/mock-interview.png)
+
+### Real Interview Assessment
+
+![Real Interview Assessment](screenshots/real-interview.png)
+
+### AI Matching / Applicant Scoring
+
+![AI Matching](screenshots/ai-matching.png)
+
+---
+
 ## Core Features
 
 ### Authentication and Role-Based Access
@@ -126,81 +174,3 @@ Python / FastAPI NLP Service
         | OCR, Resume Parsing, BM25, Embeddings, LLM Evaluation, Camera Analysis
         v
 Processed Resume Data, Match Scores, Interview Scores, Analytics
-```
-
----
-
-## Technology Stack
-
-### Frontend
-
-- React
-- Vite
-- React Router DOM
-- Axios
-- Formik and Yup
-- Google OAuth
-- html2pdf.js
-- jsPDF
-- Quill
-- Monaco Editor
-- Chart.js / Recharts
-- Web Speech API
-- MediaRecorder API
-- getUserMedia API
-
-### Backend
-
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- JWT
-- Cookie Parser
-- bcrypt / bcryptjs
-- CORS
-- Multer
-- Cloudinary
-- Nodemailer
-- BullMQ
-- ioredis
-- Groq SDK
-- PDFKit
-- JSDOM
-
-### NLP Service
-
-- Python
-- FastAPI
-- Uvicorn
-- Groq
-- Hugging Face Hub
-- Sentence Transformers
-- PyTorch
-- PyMuPDF
-- RapidOCR ONNX Runtime
-- OpenCV
-- NumPy
-- scikit-learn
-- rank-bm25
-- ReportLab
-
----
-
-
-## Future Improvements
-
-- Dockerize frontend, backend, Redis, MongoDB, and NLP service.
-- Add centralized logging for backend, workers, and NLP service.
-- Add automated tests for authentication, resume processing, matching, and interviews.
-- Add CI/CD pipeline.
-- Add production-ready environment configuration.
-- Add recruiter-side analytics dashboard for hiring performance.
-- Improve resume OCR support for DOC/DOCX conversion.
-- Add real-time WebSocket updates for matching and interview evaluation status.
-
----
-
-## Final Summary
-
-TalentHire / MCVPARSER is a full-stack AI recruitment platform that combines candidate CV management, recruiter job posting, AI-based resume parsing, job matching, mock interview practice, real interview assessment, and admin management. The platform uses React, Express, MongoDB, Redis, BullMQ, Cloudinary, Groq, Hugging Face embeddings, BM25 search, and FastAPI NLP services to create an end-to-end smart hiring system.
