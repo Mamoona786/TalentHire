@@ -26,8 +26,6 @@ The platform has three main user roles:
 
 Below are some screenshots of the TalentHire platform.
 
-> Make sure these images exist inside the `screenshots/` folder before uploading to GitHub.
-
 ### Landing Page
 
 ![Home Page](screenshots/home.png)
