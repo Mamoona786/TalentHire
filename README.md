@@ -1,17 +1,5 @@
 # TalentHire
 
-**TalentHire** is an AI-powered recruitment and interview assessment platform. It helps candidates build and manage CVs, allows recruiters to post jobs and evaluate applicants, and uses NLP/AI services for resume parsing, job matching, mock interviews, and real interview assessment.
-
-The project is built as a multi-service system:
-
-- **React + Vite frontend** for candidate, recruiter, admin, authentication, resume builder, job search, mock interview, and real interview pages.
-- **Node.js + Express backend** for authentication, role-based access, job APIs, resume APIs, applications, queues, file storage, email, transcription, and interview orchestration.
-- **Python + FastAPI NLP service** for resume processing, BM25 job ranking, hybrid CV-job matching, mock interview question generation/evaluation, real interview AI evaluation, and camera analysis.
-
----
-
-## Project Overview
-
 TalentHire is designed to improve the recruitment process by combining job posting, CV management, AI-based resume analysis, job matching, and interview assessment in one platform.
 
 The platform has three main user roles:
@@ -155,20 +143,3 @@ Below are some screenshots of the TalentHire platform.
 - Final interview score and recruiter review
 
 ---
-
-## System Architecture
-
-```text
-React/Vite Frontend
-        |
-        | Axios API calls with credentials
-        v
-Node.js / Express Backend
-        |
-        | MongoDB, Redis, BullMQ, Cloudinary, SMTP, Groq Whisper
-        v
-Python / FastAPI NLP Service
-        |
-        | OCR, Resume Parsing, BM25, Embeddings, LLM Evaluation, Camera Analysis
-        v
-Processed Resume Data, Match Scores, Interview Scores, Analytics
